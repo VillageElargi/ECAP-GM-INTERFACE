@@ -12,7 +12,7 @@ export const Colors = {
   primary: "#2563eb",
   green: "#108f5a",
   red: "#ac2333",
-  purple: "#5d3990",
+  purple: "#723dbd",
   yellow: "#e3ae09",
   orange: "#cc6a31",
   main_txt: "#f5f5f5",
@@ -26,7 +26,7 @@ export const RoundedSizeSmall = 4 as const;
 export const Spacing = {
   half: 2,
   one: 4,
-  two: 8,
+  two: 12,
   three: 16,
   four: 24,
   five: 32,

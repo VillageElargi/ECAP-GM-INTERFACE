@@ -6,7 +6,13 @@ const CASE_1: Case = {
   date: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),
   path: ["Dangers naturels", "Météorologiques", "Grêle"],
   syncCodes: [
-    { code: "RSV2", solutionId: 4, entered: false },
+    { code: "RSV2", solutionId: 4, entered: true },
+    { code: "RSV3", solutionId: 4, entered: false },
+    { code: "RSV2", solutionId: 4, entered: true },
+    { code: "RSV3", solutionId: 4, entered: false },
+    { code: "RSV2", solutionId: 4, entered: true },
+    { code: "RSV3", solutionId: 4, entered: false },
+    { code: "RSV2", solutionId: 4, entered: true },
     { code: "RSV3", solutionId: 4, entered: false },
   ],
 };

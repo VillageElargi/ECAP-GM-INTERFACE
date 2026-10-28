@@ -17,6 +17,20 @@
     "convincing": "Les joueurs doivent vous convaincre",
     "no_infos": "Aucune info disponible"
   },
+  "commands": {
+    "launch": "Lancement :case",
+    "launch_dsc": "Met le chronophone en mode Recherche",
+    "read": "Envoi message :case",
+    "read_dsc": "Envoie le message d'introduction au cas, fait passer le chronophone en mode GRS",
+    "navigate": "Page sinistre :case",
+    "navigate_dsc": "Met le chronophone en mode Prévenir",
+    "fill": "Remplissage sync codes :case",
+    "fill_dsc": "Remplit les codes de synchronisation du cas",
+    "comunicate": "Communication convaincre :case",
+    "comunicate_dsc": "Ouvre le micro du Game Master pour entendre les arguments",
+    "validate": "Valider :case",
+    "validate_dsc": "Valide le cas et met le chronophone en mode recherche. (CLIMAX: mode fin de partie)"
+  },
   "actions": {
     "confirm": "Confirmer",
     "cancel": "Annuler",
