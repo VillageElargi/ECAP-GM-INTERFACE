@@ -13,6 +13,9 @@ export type AppContextValue = {
 
   cases: Case[];
   setCases: React.Dispatch<React.SetStateAction<Case[]>>;
+
+  viewCase: number;
+  setViewCase: React.Dispatch<React.SetStateAction<number>>;
 };
 
 export const AppContext = createContext<AppContextValue | undefined>(undefined);

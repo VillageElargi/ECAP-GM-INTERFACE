@@ -8,18 +8,20 @@ import "@/global.css";
 export const Colors = {
   main_bg: "#0b0f1a",
   container_bg: "#0d1321",
+  card_bg: "#1a2233",
   primary: "#2563eb",
-  green: "#155138",
+  green: "#108f5a",
   red: "#ac2333",
   purple: "#5d3990",
   yellow: "#e3ae09",
-  orange: "#7d4525",
+  orange: "#cc6a31",
   main_txt: "#f5f5f5",
   discrete_txt: "#f5f5f590",
 } as const;
 
 export const BorderSize = 0.5 as const;
 export const RoundedSize = 8 as const;
+export const RoundedSizeSmall = 4 as const;
 
 export const Spacing = {
   half: 2,

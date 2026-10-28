@@ -11,14 +11,17 @@ import PulseView from "./ui/pulse-view";
 const GRSLauncher = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
-  const { setStatus } = useApp();
+  const { setStatus, setActualLevel, setViewCase } = useApp();
 
   const launch = () => {
     setStatus("loading");
 
     setTimeout(() => {
       setStatus("searching");
-    }, 5000);
+
+      setViewCase(1);
+      setActualLevel(1);
+    }, 1000);
   };
 
   const { t } = useTranslation();

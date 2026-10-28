@@ -6,6 +6,17 @@
   "pending_grs_dsc": "Le GRS est en attente de lancement. Dès que vous l'aurez démaré à distance, la séquence de démarage sera initié et les joueurs pourront se lancer dans la recherche de cas.",
   "starting_grs": "Démarage du GRS en cours",
   "starting_grs_dsc": "Le GRS est en cours de démarage. Vous aurez accès à toutes les fonctionalité à la fin des animations de lancement.",
+  "case": "Cas",
+  "actual_case": "Cas actuel",
+  "validated": "Validé",
+  "waiting": "En attente de lancement",
+  "steps": {
+    "searching": "Recherche du cas en cours",
+    "navigating": "Recherche de la caégorie en cours",
+    "preventing": "Saisie des codes de synchronisation :entered/:total",
+    "convincing": "Les joueurs doivent vous convaincre",
+    "no_infos": "Aucune info disponible"
+  },
   "actions": {
     "confirm": "Confirmer",
     "cancel": "Annuler",

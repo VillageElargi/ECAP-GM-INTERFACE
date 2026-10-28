@@ -7,6 +7,7 @@ export const useAppState = () => {
   const [actualLevel, setActualLevel] = useState(0);
   const [status, setStatus] = useState<GameStatus>("waiting");
   const [cases, setCases] = useState<Case[]>(CASES);
+  const [viewCase, setViewCase] = useState<number>(0);
 
   const incrementLevel = useCallback(() => {
     setActualLevel((previous) => previous + 1);
@@ -22,5 +23,8 @@ export const useAppState = () => {
 
     cases,
     setCases,
+
+    viewCase,
+    setViewCase,
   };
 };
