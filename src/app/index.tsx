@@ -1,13 +1,15 @@
 import Layout from "@/components/layout";
-import { useTranslation } from "react-i18next";
+import ViewSelector from "@/components/view-selector";
+import { AppProvider } from "@/context/AppProvider";
 import { StyleSheet } from "react-native";
 
 export default function HomeScreen() {
-  const { t } = useTranslation();
   return (
-    <Layout>
-      <></>
-    </Layout>
+    <AppProvider>
+      <Layout>
+        <ViewSelector />
+      </Layout>
+    </AppProvider>
   );
 }
 

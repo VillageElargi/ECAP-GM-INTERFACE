@@ -1,1 +1,14 @@
-{}
+{
+  "confirm_action": "Confirmer l'action",
+  "launch_grs": "Voulez-vous vraiment lancer le GRS ?",
+  "launch_grs_dsc": "Le GRS est actuellement en état d'attente. Dès que vous validerez cette étape, le GRS sera enclanché et il sera impossible de revenir en arrière.",
+  "pending_grs": "GRS en attente",
+  "pending_grs_dsc": "Le GRS est en attente de lancement. Dès que vous l'aurez démaré à distance, la séquence de démarage sera initié et les joueurs pourront se lancer dans la recherche de cas.",
+  "starting_grs": "Démarage du GRS en cours",
+  "starting_grs_dsc": "Le GRS est en cours de démarage. Vous aurez accès à toutes les fonctionalité à la fin des animations de lancement.",
+  "actions": {
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "start_grs": "Démarer le GRS"
+  }
+}

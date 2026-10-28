@@ -1,4 +1,4 @@
-import { Colors } from "@/constants/theme";
+import { BorderSize, Colors, Spacing } from "@/constants/theme";
 import { StyleSheet, View } from "react-native";
 
 const Header = () => {
@@ -8,9 +8,9 @@ const Header = () => {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: Colors.container_bg,
-    borderBottomWidth: 0.5,
+    borderBottomWidth: BorderSize,
     borderBottomColor: Colors.primary,
-    padding: 10,
+    padding: Spacing.two,
     paddingTop: 30,
   },
 });

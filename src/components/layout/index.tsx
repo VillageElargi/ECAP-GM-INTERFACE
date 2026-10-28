@@ -1,4 +1,4 @@
-import { Colors } from "@/constants/theme";
+import { Colors, Spacing } from "@/constants/theme";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import Aside from "./aside";
@@ -31,9 +31,9 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    padding: 10,
+    padding: Spacing.two,
     flexDirection: "column",
-    gap: 10,
+    gap: Spacing.two,
   },
 });
 

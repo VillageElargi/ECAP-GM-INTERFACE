@@ -1,4 +1,4 @@
-import { Colors } from "@/constants/theme";
+import { BorderSize, Colors, Spacing } from "@/constants/theme";
 import { StyleSheet, View } from "react-native";
 
 const Aside = () => {
@@ -9,10 +9,10 @@ const styles = StyleSheet.create({
   container: {
     width: 250,
     backgroundColor: Colors.container_bg,
-    borderRightWidth: 0.5,
+    borderRightWidth: BorderSize,
     borderRightColor: Colors.primary,
     flexDirection: "column",
-    padding: 10,
+    padding: Spacing.two,
   },
 });
 
